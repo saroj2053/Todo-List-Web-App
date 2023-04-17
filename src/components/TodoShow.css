@@ -1,0 +1,35 @@
+.todo-show {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    transition: background 0.5s ease-in-out;
+    margin-bottom: 1.5rem;
+}
+
+.todo-show:hover {
+    background: #ffefba;
+    color: black;
+}
+
+.todo-show input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.todo-show .actions {
+    margin-left: 5px;
+    position: absolute;
+    right: 8px;
+    top: 10px
+}
+
+.todo-show .actions .delete {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 2px;
+}

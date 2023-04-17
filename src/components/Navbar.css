@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.navbar__logo {
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px
+}
+
+
+.navbar__options>ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ul>li {
+    border: 1px solid lightgray;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3vw;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+ul>li:hover {
+    background: rgba(17, 17, 17, 0.6);
+    color: #fff;
+}
+
+li>img {
+    object-fit: contain;
+    width: 20rem;
+}
+
+.dark {
+    background: #111;
+    color: white;
+}
+
+.light {
+    background: #fff;
+    color: black;
+}
